@@ -1,0 +1,15 @@
+{
+    "tfidf_dimensions": 10000,
+    "auxiliary_dimensions": 104,
+    "combined_dimensions": 10104,
+    "feature_ordering": [
+        "TF-IDF features (10000)",
+        "Word2Vec features (100)",
+        "Readability",
+        "Sentiment",
+        "Article Length",
+        "Punctuation Ratio"
+    ],
+    "cv_leakage_policy": "STRICT 5-FOLD: TF-IDF, Word2Vec, and Scalers independently fitted on each train-fold. No artifact reuse.",
+    "nb_nonnegative_policy": "NaiveBayesShiftScaler subtracts train-fold minimum and applies np.maximum(0) floor."
+}

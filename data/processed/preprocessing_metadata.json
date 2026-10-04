@@ -1,0 +1,25 @@
+{
+    "preprocessing_version": "1.0",
+    "python_version": "3.12.6",
+    "spacy_version": "3.8.16",
+    "spacy_model": "en_core_web_sm",
+    "nltk_version": "3.10.3",
+    "preprocessing_steps": [
+        "Input validation",
+        "Lowercase normalization",
+        "URL removal",
+        "Noise/punctuation handling",
+        "SpaCy tokenization",
+        "Stopword removal",
+        "SpaCy lemmatization",
+        "Whitespace normalization"
+    ],
+    "lowercase_policy": "All text is lowercased deterministically.",
+    "url_policy": "Removed using regex (http://, https://, www.).",
+    "punctuation_noise_policy": "Removed all non-alphanumeric characters except space.",
+    "stopword_source": "NLTK English stopwords",
+    "random_seed": 42,
+    "records_processed": 12765,
+    "empty_outputs": 0,
+    "timestamp": "2026-10-04T22:57:11.573700"
+}

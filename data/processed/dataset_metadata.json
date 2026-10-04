@@ -1,0 +1,21 @@
+{
+    "total_raw_rows": 12791,
+    "total_usable_rows": 12765,
+    "train_rows": 10211,
+    "validation_rows": 1277,
+    "test_rows": 1277,
+    "class_counts": {
+        "REAL": 7123,
+        "FAKE": 5642
+    },
+    "random_seed": 42,
+    "label_mapping": {
+        "pants-fire": "FAKE",
+        "false": "FAKE",
+        "barely-true": "FAKE",
+        "half-true": "REAL",
+        "mostly-true": "REAL",
+        "true": "REAL"
+    },
+    "dataset_source": "https://www.cs.ucsb.edu/~william/data/liar_dataset.zip"
+}
